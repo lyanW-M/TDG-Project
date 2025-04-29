@@ -13,8 +13,11 @@ body {
     border-color: black;
   }
   
-  .pokemonNames h2 {
+  .pokemon {
     display: inline-block;
+  }
+
+  .pokemonNames h2 {
     background-color: white;
     color: #000000;
     text-align: center;
@@ -26,6 +29,16 @@ body {
   }
   
   .pokemonNames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+  }
+
+  .description {
     display: flex;
     justify-content: center;
     align-items: center;
