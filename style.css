@@ -1,1 +1,36 @@
-
+body {
+    background: #e2e2e2;
+  }
+  
+  .heading {
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;
+    font-family: 'Press Start 2P', cursive;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+  }
+  
+  .pokemonNames h2 {
+    display: inline-block;
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px 40px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+  }
+  
+  .pokemonNames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+  }
