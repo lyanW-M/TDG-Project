@@ -38,6 +38,17 @@ body {
     border-color: black;
   }
 
+  .description h2 {
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px 40px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+  }
+  
   .description {
     display: flex;
     justify-content: center;
