@@ -16,8 +16,9 @@ body {
   .pokemon {
     display: inline-block;
   }
-
+  
   .pokemonNames h2 {
+    display: inline-block;
     background-color: white;
     color: #000000;
     text-align: center;
@@ -37,8 +38,29 @@ body {
     border-radius: 20px;
     border-color: black;
   }
-
-  .description h2 {
+  
+  .mid {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    column-gap: 20px;
+    margin: 30px
+  }
+  
+  .mid h3 {
+    display: inline-block;
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px 40px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+  }
+  
+  .description h3 {
+    display: inline-block;
     background-color: white;
     color: #000000;
     text-align: center;
