@@ -1,82 +1,112 @@
 body {
-    background: #e2e2e2;
-  }
-  
-  .heading {
-    background-color: #ff0000;
-    text-align: center;
-    color: white;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;
-    font-family: 'Press Start 2P', cursive;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: black;
-  }
-  
-  .pokemon {
-    display: inline-block;
-  }
-  
-  .pokemonNames h2 {
-    display: inline-block;
-    background-color: white;
-    color: #000000;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    padding: 20px 40px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: black;
-  }
-  
-  .pokemonNames {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff0000;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: black;
-  }
-  
-  .mid {
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    column-gap: 20px;
-    margin: 30px
-  }
-  
-  .mid h3 {
-    display: inline-block;
-    background-color: white;
-    color: #000000;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    padding: 20px 40px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: black;
-  }
-  
-  .description h3 {
-    display: inline-block;
-    background-color: white;
-    color: #000000;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    padding: 20px 40px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: black;
-  }
-  
-  .description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff0000;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: black;
-  }
+  background: #e2e2e2;
+}
+
+.heading {
+  background-color: #ff0000;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;
+  font-family: 'Press Start 2P', cursive;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.pokemon {
+  display: inline-block;
+}
+
+.pokemonNames h2 {
+  display: inline-block;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.pokemonNames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0000;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.mid img {
+  width: 300px;
+  margin-right: 100px;
+}
+
+.mid h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  margin: 20px;
+}
+
+.mid h3:nth-of-type(1) {
+  background-color: #32b032;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: center;
+  height: 180px;
+  column-gap: 20px;
+}
+
+.data h3 {
+  display: inline-block;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.description h3 {
+  display: inline-block;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0000;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
