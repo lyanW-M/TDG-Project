@@ -68,8 +68,13 @@ body {
   background-color: #32b032;
 }
 
+.mid h3:nth-of-type(2) {
+  background-color: purple;
+}
+
 .data {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
   text-align: center;
@@ -78,7 +83,9 @@ body {
 }
 
 .data h3 {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   color: #000000;
   text-align: center;
