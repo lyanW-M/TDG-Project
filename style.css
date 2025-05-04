@@ -96,6 +96,17 @@ body {
   border-color: black;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0000;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  margin-top: 100px;
+}
+
 .description h3 {
   display: inline-block;
   background-color: white;
@@ -103,16 +114,6 @@ body {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   padding: 20px 40px;
-  border-style: solid;
-  border-radius: 20px;
-  border-color: black;
-}
-
-.description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ff0000;
   border-style: solid;
   border-radius: 20px;
   border-color: black;
